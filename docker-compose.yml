@@ -10,7 +10,6 @@ services:
       - PORT=3000
       - MONGODB_URI=mongodb://mongodb-node:27017/anythink-market
       - GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN=${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN}
-      - HOSTNAME=host.docker.internal
     working_dir: /usr/src
     volumes:
       - ./:/usr/src/

@@ -19,5 +19,4 @@ CommentSchema.methods.toJSONFor = function(user) {
   };
 };
 
-const Comment = mongoose.model("Comment", CommentSchema);
-module.exports = Comment;
+mongoose.model("Comment", CommentSchema);
