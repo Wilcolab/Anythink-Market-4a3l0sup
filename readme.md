@@ -13,5 +13,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ### Using Codespace
 1.  run `docker compose up`
 
+### Seeding the Database
+1. run `docker exec -ti anythink-backend-node bash`
+2. run `cd backend && ./seeds.sh`
+
 ## Tests
 Documentation about running the End to End test can be found under the `/tests` directory
